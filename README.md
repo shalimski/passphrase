@@ -1,5 +1,7 @@
 # passphrase
 
+[![Build and test](https://github.com/shalimski/passphrase/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/shalimski/passphrase/actions/workflows/go.yml)
+
 Generator for passphrases.
 
 usage:
