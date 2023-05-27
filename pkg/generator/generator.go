@@ -32,7 +32,15 @@ func Run(cfg *Config) {
 
 func GetRandomWord(words []string) string {
 
+	if len(words) == 0 {
+		return ""
+	}
+
 	word := words[rand.Intn(len(words))]
+
+	if len(word) == 0 {
+		return ""
+	}
 
 	r := unicode.ToUpper(rune(word[0]))
 	return string(r) + word[1:]
